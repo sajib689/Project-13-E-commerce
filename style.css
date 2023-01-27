@@ -243,7 +243,6 @@ body{
     line-height: 40px;
     border-radius: 50px;
     background-color: #e8f6ea;
-    font-weight: 500;
     color: #088178;
     border: 1px solid #cce7d0;
     position: absolute;
@@ -283,3 +282,16 @@ body{
 
 /* banner section ends */
 /* new arrival section start */
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 580px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/banner/b17.jpg);
+}

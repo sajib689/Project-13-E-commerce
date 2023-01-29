@@ -484,7 +484,10 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
-
+/* shop page css */
+#page-header{
+    background-image: url(./images/banner/b1.jpg);
+}
 /* responsive css code here */
 
 @media (max-width: 799px) {

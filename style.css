@@ -487,6 +487,8 @@ footer .copyright{
 /* shop page css */
 #page-header{
     background-image: url(./images/banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
 }
 /* responsive css code here */
 

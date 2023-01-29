@@ -546,16 +546,14 @@ footer .copyright{
         justify-content: center;
     }
     #product1 .pro-container {
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: center;
+        align-items: flex-start;
         margin: 0 8px 0 8px;
     }
     #sm-banner .banner-box {
         width: 100%;
         height: 30vh;
-    }
-    .section-p1 {
-        padding: 0;
+        align-items: center;
     }
     #sm-banner h4 {
         font-size: 30px;
@@ -581,9 +579,67 @@ footer .copyright{
         height: 20vh;
     }
     #newsletter .form {
-        margin-right: 20px;
+        width: 55%;
+    }
+}
+
+
+@media (max-width: 477px) {
+    #header {
+        padding: 13px 26px;
+    }
+    #hero {
+        padding: 0 30px;
+        background-position: 55%;
+    }
+    #feature .fe-box {
+        min-width: 350px;
+        margin: 15px 0;
+    }
+    #feature .fe-box h6 {
+        font-size: 25px;
+    }
+    #product1 .pro {
+        min-width: 350px;
+    }
+    #product1 .pro .des span {
+        font-size: 15px;
+        padding: 7px;
+    }
+    #product1 .pro .des h5 {
+        padding-top: 7px;
+        font-size: 23px;
+    }
+    #product1 .pro .des i {
+        font-size: 22px;
+    }
+    #product1 .pro .des h4 {
+        font-size: 25px;
+    }
+    #banner {
+        height: 35vh;
+    }
+    #product1 .pro .icon {
+        width: 65px;
+        height: 42px;
+        font-size: 30px;
+    }
+    #newsletter {
+        height: 35vh;
+    }
+    #newsletter input {
+        width: 350px;
     }
     .newstext {
-        margin: 0 0 0 20px;
+        text-align: center;
+    }
+    #newsletter h4 {
+        font-size: 25px;
+    }
+    #newsletter p {
+        font-size: 16px;
+    }
+    footer .copyright {
+        text-align: start;
     }
 }

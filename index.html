@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-13</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -15,7 +17,8 @@
             <img src="./images/logo.png" class="logo" alt="logo">
         </a>
         <div>
-            <ul id="navbar">
+            <ul id="navbar" class="navbar">
+                <a href="#" id="close"><i class="fa-solid fa-xmark fa-2x"></i></a>
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -23,6 +26,11 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="cart.html"><i class="fa-solid fa-bag-shopping fa-2x"></i></a></li>
             </ul>
+        </div>
+        <div id="mobile">
+            
+           <a href="cart.html"><i class="fa-solid fa-bag-shopping fa-2x"></i></a>
+           <i class="fa-solid fa-bars" id="bar"></i>
         </div>
     </section>
     <section id="hero">
@@ -355,7 +363,7 @@
     </section>
     <footer class="section-p1">
         <div class="col">
-            <img src="./images/logo.png" alt="">
+            <img class="logo" src="./images/logo.png" alt="">
             <h4>Contact</h4>
             <p>
                 <strong>Address</strong>: Muragacha, Manirmpur, Jashore
@@ -388,15 +396,21 @@
             <a href="#">Track My Order</a>
             <a href="#">Help</a>
         </div>
-        <div class="col">
+        <div class="col install">
             <h4>Install App</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
-            <a href="#">My Wishlist</a>
-            <a href="#">Track My Order</a>
-            <a href="#">Help</a>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="./images/pay/app.jpg" alt="">
+                <img src="./images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="./images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>Copyright 2023. All rights reserved by Sajib Hossen.</p>
         </div>
     </footer>
+    
     <script src="./script.js"></script>
 </body>
 </html>

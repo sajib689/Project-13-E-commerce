@@ -665,9 +665,10 @@ footer .copyright{
     }
     #newsletter button {
         margin-top: 10px;
+        text-align: center;
     }
     .newstext {
-        text-align: center;
+        text-align: start;
     }
     #newsletter h4 {
         font-size: 25px;

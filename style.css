@@ -503,6 +503,11 @@ footer .copyright{
     #navbar.active {
         right: 0;
     }
+    #close {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
     /* .navbar.open {
         right: 0;
     } */

@@ -640,7 +640,15 @@ footer .copyright{
         height: 35vh;
     }
     #newsletter input {
-        width: 350px;
+        width: 270px;
+    }
+    #newsletter .form {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+    #newsletter button {
+        margin-top: 10px;
     }
     .newstext {
         text-align: center;

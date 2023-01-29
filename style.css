@@ -657,6 +657,7 @@ footer .copyright{
     }
     #newsletter input {
         width: 270px;
+        border-radius: 5px;
     }
     #newsletter .form {
         display: flex;
@@ -666,6 +667,7 @@ footer .copyright{
     #newsletter button {
         margin-top: 10px;
         text-align: center;
+        border-radius: 5px;
     }
     .newstext {
         text-align: start;

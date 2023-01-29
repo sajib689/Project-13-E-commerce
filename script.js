@@ -16,6 +16,6 @@ if (bar){
 }
 if (close){
     close.addEventListener('click', () =>{
-        nav.classList.remove('nav');
+        nav.classList.remove('active');
     });
 }

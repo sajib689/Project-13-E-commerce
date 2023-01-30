@@ -511,7 +511,14 @@ footer .copyright{
     color: #fff;
     font-weight: 600;
 }
-
+/* single product page css */
+#prodetails .single-pro-image{
+    width: 40%;
+}
+#prodetails .small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
 /* responsive css code here */
 
 @media (max-width: 799px) {

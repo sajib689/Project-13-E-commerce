@@ -514,10 +514,22 @@ footer .copyright{
 /* single product page css */
 #prodetails .single-pro-image{
     width: 40%;
+    margin-right: 50px;
 }
 #prodetails .small-img-group{
     display: flex;
     justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails{
+    display: flex;
+}
+.single-pro-details{
+    display: flex;
+    flex-direction: column;
 }
 /* responsive css code here */
 

@@ -622,6 +622,10 @@ font-size: 26px;
     color: #c9bcce;
     z-index: -9;
 }
+/* about page css */
+#page-header.about-header{
+    background-image: url(./images/banner/b17.jpg);
+}
 /* responsive css code here */
 
 @media (max-width: 799px) {

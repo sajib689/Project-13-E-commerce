@@ -854,6 +854,13 @@ font-size: 26px;
     #about-app .video {
         width: 100%;
     }
+    /* contact css */
+    #form-details {
+        padding: 45px;
+    }
+    #form-details form {
+        width: 50%;
+    }
     
 }
 
@@ -989,4 +996,26 @@ font-size: 26px;
         padding: 40px 15px;
     }
    
+    /* contact css */
+    #contact-details {
+        flex-direction: column;
+    }
+    #contact-details .details {
+        width: 100%;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #contact-details.section-p1 {
+        padding: 40px 30px;
+    }
+    #form-details {
+        flex-direction: column;
+    }
+    #form-details form {
+        width: 100%;
+    }
+    #form-details .people div {
+        margin-top: 50px;
+    }
 }

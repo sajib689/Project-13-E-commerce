@@ -1121,4 +1121,13 @@ font-size: 26px;
     #cart-add{
         flex-direction: column;
     }
+    #cart-add.section-p1 {
+        padding: 40px 20px;
+    }
+    #subtotal {
+        width: 100%;
+    }
+    #coupon input {
+        width: 70%;
+    }
 }
